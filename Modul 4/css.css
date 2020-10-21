@@ -1,0 +1,27 @@
+main {
+    padding: 10px 200px;
+    margin-top: 5em;
+}
+
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 0px;
+    background-color: wheat;
+}
+
+.middle {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}

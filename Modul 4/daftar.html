@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Tugas 4 - Form HTML</title>
+</head>
+<body>
+    <main>
+        <div class="mainbox">
+            <h1>Daftar Skuyy</h1>
+            <div>
+                <p>
+                    Silahkan isi datamu dengan benar(ini ceritanya untuk daftar grup jurusan).
+                </p>
+                <form action="sucsess.html">
+                    <!-- Nama -->
+                    <label for="name">Nama :</label><br>
+                    <input type="text" id="name" name="fname" placeholder="Nama Depan..." size="27">
+                    <input type="text" id="name" name="lname" placeholder="Nama Belakang.." size="27">
+                    <br><br>
+                    <!-- Username -->
+                    <label for="username">Username :</label> <br>
+                    <input type="text" id="username" name="username" placeholder="Username (Maks. 8 karakter)" maxlength="8" size="60">
+                    <br><br>
+                    <!-- Email -->
+                    <label for="email">Email :</label><br>
+                    <input type="text" id="email" name="email" placeholder="Email" size="60"> <br> <br>
+                    <!-- Password -->
+                    <label for="password">Password :</label><br>
+                    <input type="password" id="password" name="password" placeholder="Password (Terdiri dari minimum 8 karakter)" minlength="8" size="60"> <br> <br>
+                    <!-- Gender -->
+                    <label for="gender">Jenis Kelamin :</label> <br>
+                    <input type="radio" id="laki" name="gender" value="laki">
+                    <label for="laki">Laki-Laki</label>
+                    <input type="radio" id="Perempuan" name="gender" value="Perempuan">
+                    <label for="Perempuan">Perempuan</label>
+                    <br><br>
+                    <!-- FotoProfil -->
+                    <label for="PP">Upload Foto Profilmu :</label> <br>
+                    <input type="file" id="pt" name="PP"><br><br>
+                    <!-- Bio -->
+                    <label for="Bio">Bio :</label><br>
+                    <textarea name="Bio" id="note" cols="50" rows="15" placeholder="Isi Bio mu disini"></textarea>
+                    <br><br>
+                    <!--Angkatan-->
+                    <label for="level">Tahun masuk ke Informatika :</label> <br>
+                    <select name="level" id="level">
+                        <option value="15">2015</option>
+                        <option value="16">2016</option>
+                        <option value="17">2017</option>
+                        <option value="18">2018</option>
+                        <option value="19">2019</option>
+                        <option value="20" selected>2020</option>
+                    </select>
+                    <br><br>
+                    <!-- Perlengkapan -->
+                    <label for="equip">Sarana dan Prasarana yang dimiliki untuk kuliah :</label><br>
+                    <input type="checkbox" id="eq" name="equip" value="hp">
+                    <label for="eq">Smartphone</label><br>
+                    <input type="checkbox" id="c" name="equip" value="laptop">
+                    <label for="eq">Laptop</label><br>
+                    <input type="checkbox" id="c" name="equip" value="motor">
+                    <label for="eq">Motor</label><br>
+                    <input type="checkbox" id="c" name="equip" value="mobil">
+                    <label for="eq">Mobil</label><br>
+                    <input type="checkbox" id="c" name="equip" value="etc">
+                    <label for="eq">Lainnya</label><br>
+                    <br> <br>
+                    
+
+                    <input type="submit" value="daftar">
+                    <input type="reset">
+                </form>
+            </div>
+            <div>
+                <p>
+                    Sudah Punya Akun ? Login <a href="index.html">Disini.</a>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
