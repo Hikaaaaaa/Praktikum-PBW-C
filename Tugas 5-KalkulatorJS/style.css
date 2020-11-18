@@ -1,0 +1,32 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: lightblue;
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #0e157a;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tombol{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px;
+}
+.tampilan{
+    width: 285px;
+    margin: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+.output{
+  width: 285px;
+  margin: 10px;
+  font-size: 25px;
+  padding: 5px;
+}

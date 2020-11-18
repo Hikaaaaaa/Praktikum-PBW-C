@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas 5 KalkulatorJS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="keyboard">
+                <form name="form">
+                    <input class="tampilan" name="tampilan">
+                </form>
+                <form name="value">
+                    <input class="output" name="output">
+                </form>
+                <table>
+                    <tr>
+                        <td><input class="tombol" type="button" value="C" onclick="reset()"></td>
+                        <td><input class="tombol" type="button" value="/" onclick="masukan('/')"></td>
+                        <td><input class="tombol" type="button" value="x" onclick="masukan('*')"></td>
+                        <td><input class="tombol" type="button" value="<" onclick="hapus()"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="tombol" type="button" value="7" onclick="masukan(7)"></td>
+                        <td><input class="tombol" type="button" value="8" onclick="masukan(8)"></td>
+                        <td><input class="tombol" type="button" value="9" onclick="masukan(9)"></td>
+                        <td><input class="tombol" type="button" value="-" onclick="masukan('-')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="tombol" type="button" value="4" onclick="masukan(4)"></td>
+                        <td><input class="tombol" type="button" value="5" onclick="masukan(5)"></td>
+                        <td><input class="tombol" type="button" value="6" onclick="masukan(6)"></td>
+                        <td><input class="tombol" type="button" value="+" onclick="masukan('+')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="tombol" type="button" value="1" onclick="masukan(1)"></td>
+                        <td><input class="tombol" type="button" value="2" onclick="masukan(2)"></td>
+                        <td><input class="tombol" type="button" value="3" onclick="masukan(3)"></td>
+                        <td><input class="tombol" type="button" value="." onclick="masukan('.')"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input class="tombol" style="width:223px" type="button" value="0"
+                                onclick="masukan(0)">
+                        </td>
+                        <td><input class="tombol" type="button" value="=" onclick="hasil()"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</html>
