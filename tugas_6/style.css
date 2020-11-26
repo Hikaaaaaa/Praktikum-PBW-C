@@ -1,0 +1,71 @@
+body{
+    background-color: #00aeff;
+}
+h1{
+    text-align: center;
+}
+.form-style{
+    max-width: 500px;
+    height: 400px;
+    margin: 30px auto;
+    padding:10px;
+}
+form{
+    margin: 30px auto;
+}
+legend{
+    color:black;
+    margin: auto;
+    background-color: rgb(68, 228, 175);
+    border-top: 1px solid black;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+}
+fieldset{
+    border-radius: 10px;
+    background-color: rgb(68, 228, 175);
+    width: fit-content;
+    margin: 30px auto;
+}
+table td{
+    color:black;
+    padding: 5px 20px;
+}
+.sumit{
+    padding:5px;
+    margin: 10px 30px 100px 170px;
+}
+.sumit input{
+    color:black;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(68, 228, 175);
+}
+
+
+.box-tampil{
+    max-width: 500px;
+    height: 400px;
+    margin: 30px auto;
+    padding:10px;
+}
+table{
+    margin:auto;
+}
+table td{
+    padding: 3px;
+}
+.result{
+    border-radius: 1rem;
+    background-color: #00ffd5;
+    padding:10px;
+    color:white;
+}
+.final{
+    border-radius: 10px;
+    background-color: #8c0ac9;
+    padding:5px; 
+    color:white;
+}
