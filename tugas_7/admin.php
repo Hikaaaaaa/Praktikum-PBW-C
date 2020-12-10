@@ -54,6 +54,7 @@
                             ?>
                         </tbody>
                     </table>
+                    <a href="index.php"><u>Logout<u></a>
                 </div>
             </div>
       </div>  
